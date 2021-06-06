@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="OUR NOTES"
+            android:fontFamily="@font/imstory"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/versi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="versi 1.0.0"
+            android:textSize="19dp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/note"
+            android:textColor="@color/black"
+            android:text="SWIPE FOR MORE >"
+            android:textSize="19dp"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/note" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/note"
+            android:textColor="@color/black"
+            android:text="© 2021 Hery Inc."
+            android:textSize="19dp"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+
+
+</LinearLayout>
